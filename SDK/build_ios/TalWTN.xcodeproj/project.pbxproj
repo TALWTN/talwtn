@@ -1,0 +1,1343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6220F479DD3A4B0D8CDDF4F9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41C89629F2EE4B5DA35C8E7A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2D589EFF5AF4A4EB4B96E30F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8E70351140D742C78ADDD794 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		066B38E01A9C4510B39EED1F /* UIDevice+RTCDevice.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AED6D3253B4444FA000E202 /* UIDevice+RTCDevice.o */; };
+		1200A8B9AF9C461292C3335B /* external_video_source.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9851A51CAC42A58D1C3E9B /* external_video_source.h */; };
+		1A3FF0BCE2044883A36F8B25 /* TALWTNEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B092CFCCE454CA1A04DA9CA /* TALWTNEventHandler.h */; };
+		1AC3C4FC26394416A662176E /* NSString+StdString.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 8718AD762C694A08B25AC043 /* NSString+StdString.o */; };
+		22714CE2A8B342349C246E95 /* RTCAudioSession+Configuration.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C9F6D7FDF64D439154553C /* RTCAudioSession+Configuration.o */; };
+		2A919A4D0F3A4258BFA9D07B /* external_video_source.cc in Sources */ = {isa = PBXBuildFile; fileRef = A70A03C3755F49D4AB38E777 /* external_video_source.cc */; };
+		2AC25056CFB64D9B8B7B9E3B /* fake_encoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 62A49CB669A54A64B146142D /* fake_encoder.cc */; };
+		2FC98AB44286423F88F4B222 /* RTCVideoCodecInfo+Private.o in Frameworks */ = {isa = PBXBuildFile; fileRef = FD72AC81D45D417CBB7442CF /* RTCVideoCodecInfo+Private.o */; };
+		3757811D014B413BAE8A2ABB /* wtn_subscriber_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E7A889E2041DF9F14A6B6 /* wtn_subscriber_impl.cc */; };
+		3767FE9483E64859B1A0FBEF /* TALWTNSubscriber.mm in Sources */ = {isa = PBXBuildFile; fileRef = 795A954DE67B491683C1131F /* TALWTNSubscriber.mm */; };
+		3B1EF097A9064EC6B4CDDCD3 /* TALWTNEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = C769F8D12CDB4C65B629CA4D /* TALWTNEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4C7A8B75844D37B2D3C06A /* TALWTNSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A640FB84A6A4F2A84213B28 /* TALWTNSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B570A823F4453C9581E52E /* wtn_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = ECE850E7C1D14914BF53CE00 /* wtn_interface.h */; };
+		48B97F005E5B428EB0B459D9 /* wtn_subscriber_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C1029BC78B487B84994DF3 /* wtn_subscriber_impl.h */; };
+		54E5F0B8C6604B86BE748B21 /* external_audio_device_module.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E2AF280B4B542D3959B5775 /* external_audio_device_module.cc */; };
+		5B45DB07604B47F9B8B1C987 /* wtn_event_handler.h in Headers */ = {isa = PBXBuildFile; fileRef = 364930756FBC471D8B4E1B18 /* wtn_event_handler.h */; };
+		5EBC3998EC834E7CA41A32A0 /* TALWTNPublisher.mm in Sources */ = {isa = PBXBuildFile; fileRef = 882B30AC7AE14A6694DF1E9D /* TALWTNPublisher.mm */; };
+		6F426D67F26341FC8453AE2D /* objc_platform_helper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71485FA8F06D45B5828A5FC7 /* objc_platform_helper.mm */; };
+		7B9BDB36002B495B8273CD8A /* wtn_engine.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9A06AB6075DF41DDA573C5E3 /* wtn_engine.cc */; };
+		8737AE3BBA2146DEA5743266 /* wtn_webrtc_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F6BDA7C2544711BAA473B2 /* wtn_webrtc_wrapper.h */; };
+		882713CC2DBC4529B830E088 /* wtn_publisher_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = DDC6D875E41C4D94B2B71856 /* wtn_publisher_impl.cc */; };
+		8B0F9EB0CEEC408A9335758F /* wtn_stats_callback.cc in Sources */ = {isa = PBXBuildFile; fileRef = CBD7261BF0074C36A96439EA /* wtn_stats_callback.cc */; };
+		8BFC2673CD8044EB8B99442B /* TALWTNEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = E37F31414F584E5A92E4FA80 /* TALWTNEngine.mm */; };
+		8DC4E2F0926E400CBA160635 /* http_client.cc in Sources */ = {isa = PBXBuildFile; fileRef = 732E5A56320044B6A74A2941 /* http_client.cc */; };
+		8EB451AC96174AC38A3CFCF3 /* wtn_publisher_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC4ADA91D4A44C3A3248139 /* wtn_publisher_impl.h */; };
+		9AC1DEDEA9E54E008F452D71 /* TALWTNDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 42578AC162D547D2AE61479A /* TALWTNDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC9AD6314DA480D862E74C9 /* wtn_event_handler.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0E33474ED9624280A45ADDA1 /* wtn_event_handler.cc */; };
+		9C6E6CA61F804DE696B76CF7 /* fake_decoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = F71F58F5F2DC458F83E59444 /* fake_decoder.cc */; };
+		A5D2045ED8794A53A3F9263F /* fake_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C79F232F3444B1A2E18EAD /* fake_encoder.h */; };
+		A708C5E7EAC341D3BC29D9CF /* RTCEncodedImage+Private.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 114211A7AB3F46E88A85B9FF /* RTCEncodedImage+Private.o */; };
+		AEB99F044DAD405784BC10B2 /* TALWTNPubSubInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCB3697C9CF48FEB5FA8C0F /* TALWTNPubSubInternal.h */; };
+		B2C4AF4127B0462BB3D437D8 /* http_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BEC9EC9D5047CB9291A2BD /* http_client.h */; };
+		B648D8E0808F46DC8584D669 /* RTCMTLNV12Renderer.o in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC5384CF7434CAF8169A3E6 /* RTCMTLNV12Renderer.o */; };
+		BFC88F687BF945D28C223742 /* video_sink_proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C73096AB08264EA589BB9A65 /* video_sink_proxy.h */; };
+		C1B7C222651B4B0AA1CA4D7A /* RTCMTLI420Renderer.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CC6DA219C5489690AC7EC1 /* RTCMTLI420Renderer.o */; };
+		C3BB4C57E74C43EF85670542 /* whip_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BC5BAD916B41DE9E6CFCB2 /* whip_client.h */; };
+		D0B7152816F44DB0A5A562A1 /* AVCaptureSession+DevicePosition.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EAFE29BB6B466F90DC936A /* AVCaptureSession+DevicePosition.o */; };
+		D15895AE5A4A49CD8C083EA5 /* wtn_webrtc_wrapper.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5B3DC85241E540F7B89B45CC /* wtn_webrtc_wrapper.cc */; };
+		D993A11D01E64EAE9B9BF3C6 /* external_audio_device_module.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D36D34C564428C916EC0C2 /* external_audio_device_module.h */; };
+		DA2D24E49F8F4547A5D26AA7 /* UIDevice+H264Profile.o in Frameworks */ = {isa = PBXBuildFile; fileRef = D62338D32B534F1A8C7C1CC8 /* UIDevice+H264Profile.o */; };
+		DE88C21E70CE49298741EC92 /* fake_decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FE281376CC1F4071971E0085 /* fake_decoder.h */; };
+		E4A8380158B64DA48A4CE707 /* wtn_stats_callback.h in Headers */ = {isa = PBXBuildFile; fileRef = 9439514041FE4452B315599B /* wtn_stats_callback.h */; };
+		EF334BC5EEB842AB895DDE61 /* TALWTNEventHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3ACFDF2A529247C7886F57D1 /* TALWTNEventHandler.mm */; };
+		EFA9CE0A64414E0882E769EB /* TALWTNPublisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E9F72EC1004D929872F1F1 /* TALWTNPublisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2CEFF1A96214238BB48DA7C /* video_sink_proxy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2EFBFA733CD14720A2C687D0 /* video_sink_proxy.cc */; };
+		F30431E51239409E8B2E9831 /* objc_platform_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C05681B08F24F44BE493B66 /* objc_platform_helper.h */; };
+		F399C55D8334454C989F092F /* whip_client.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF50D024F8944924AB1577A5 /* whip_client.cc */; };
+		F6FD9282F1924622A6239301 /* RTCVideoEncoderSettings+Private.o in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAAEA296E304704801716D4 /* RTCVideoEncoderSettings+Private.o */; };
+		FB0BCDF8A09849EB81EF38CD /* wtn_engine.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AA0E961759421A8FA54EAA /* wtn_engine.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48C3912B52249F2A065935E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5714F75883451BB24210D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7825852EAAB7481092A6C8F2;
+			remoteInfo = TalWTN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E33474ED9624280A45ADDA1 /* wtn_event_handler.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wtn_event_handler.cc; path = src/wtn_event_handler.cc; sourceTree = SOURCE_ROOT; };
+		10BEC9EC9D5047CB9291A2BD /* http_client.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = http_client.h; path = src/utils/http_client.h; sourceTree = SOURCE_ROOT; };
+		114211A7AB3F46E88A85B9FF /* RTCEncodedImage+Private.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "RTCEncodedImage+Private.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/RTCEncodedImage+Private.o"; sourceTree = "<absolute>"; };
+		1AD209967BF847AE984D19A2 /* TalWTN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TalWTN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D36D34C564428C916EC0C2 /* external_audio_device_module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = external_audio_device_module.h; path = src/external_module/external_audio_device_module.h; sourceTree = SOURCE_ROOT; };
+		21F6BDA7C2544711BAA473B2 /* wtn_webrtc_wrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_webrtc_wrapper.h; path = src/wtn_webrtc_wrapper.h; sourceTree = SOURCE_ROOT; };
+		27C1029BC78B487B84994DF3 /* wtn_subscriber_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_subscriber_impl.h; path = src/wtn_subscriber_impl.h; sourceTree = SOURCE_ROOT; };
+		2AED6D3253B4444FA000E202 /* UIDevice+RTCDevice.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "UIDevice+RTCDevice.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/UIDevice+RTCDevice.o"; sourceTree = "<absolute>"; };
+		2EFBFA733CD14720A2C687D0 /* video_sink_proxy.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = video_sink_proxy.cc; path = src/external_module/video_sink_proxy.cc; sourceTree = SOURCE_ROOT; };
+		364930756FBC471D8B4E1B18 /* wtn_event_handler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_event_handler.h; path = src/wtn_event_handler.h; sourceTree = SOURCE_ROOT; };
+		36CC6DA219C5489690AC7EC1 /* RTCMTLI420Renderer.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = RTCMTLI420Renderer.o; path = /Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/RTCMTLI420Renderer.o; sourceTree = "<absolute>"; };
+		3ACFDF2A529247C7886F57D1 /* TALWTNEventHandler.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = TALWTNEventHandler.mm; path = sdk/ios/TALWTNEventHandler.mm; sourceTree = SOURCE_ROOT; };
+		3E9851A51CAC42A58D1C3E9B /* external_video_source.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = external_video_source.h; path = src/external_module/external_video_source.h; sourceTree = SOURCE_ROOT; };
+		42578AC162D547D2AE61479A /* TALWTNDefines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TALWTNDefines.h; path = sdk/ios/TALWTNDefines.h; sourceTree = SOURCE_ROOT; };
+		42C79F232F3444B1A2E18EAD /* fake_encoder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fake_encoder.h; path = src/external_module/fake_encoder.h; sourceTree = SOURCE_ROOT; };
+		4E2AF280B4B542D3959B5775 /* external_audio_device_module.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = external_audio_device_module.cc; path = src/external_module/external_audio_device_module.cc; sourceTree = SOURCE_ROOT; };
+		4E6E7A889E2041DF9F14A6B6 /* wtn_subscriber_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wtn_subscriber_impl.cc; path = src/wtn_subscriber_impl.cc; sourceTree = SOURCE_ROOT; };
+		52C9F6D7FDF64D439154553C /* RTCAudioSession+Configuration.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "RTCAudioSession+Configuration.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/RTCAudioSession+Configuration.o"; sourceTree = "<absolute>"; };
+		5B3DC85241E540F7B89B45CC /* wtn_webrtc_wrapper.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wtn_webrtc_wrapper.cc; path = src/wtn_webrtc_wrapper.cc; sourceTree = SOURCE_ROOT; };
+		62A49CB669A54A64B146142D /* fake_encoder.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fake_encoder.cc; path = src/external_module/fake_encoder.cc; sourceTree = SOURCE_ROOT; };
+		68E9F72EC1004D929872F1F1 /* TALWTNPublisher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TALWTNPublisher.h; path = sdk/ios/TALWTNPublisher.h; sourceTree = SOURCE_ROOT; };
+		71485FA8F06D45B5828A5FC7 /* objc_platform_helper.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = objc_platform_helper.mm; path = src/platform/objc_platform_helper.mm; sourceTree = SOURCE_ROOT; };
+		72C6DBA5F32A4708B210831A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		732E5A56320044B6A74A2941 /* http_client.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = http_client.cc; path = src/utils/http_client.cc; sourceTree = SOURCE_ROOT; };
+		795A954DE67B491683C1131F /* TALWTNSubscriber.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = TALWTNSubscriber.mm; path = sdk/ios/TALWTNSubscriber.mm; sourceTree = SOURCE_ROOT; };
+		7B092CFCCE454CA1A04DA9CA /* TALWTNEventHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TALWTNEventHandler.h; path = sdk/ios/TALWTNEventHandler.h; sourceTree = SOURCE_ROOT; };
+		7BCB3697C9CF48FEB5FA8C0F /* TALWTNPubSubInternal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TALWTNPubSubInternal.h; path = sdk/ios/TALWTNPubSubInternal.h; sourceTree = SOURCE_ROOT; };
+		8718AD762C694A08B25AC043 /* NSString+StdString.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "NSString+StdString.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/NSString+StdString.o"; sourceTree = "<absolute>"; };
+		882B30AC7AE14A6694DF1E9D /* TALWTNPublisher.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = TALWTNPublisher.mm; path = sdk/ios/TALWTNPublisher.mm; sourceTree = SOURCE_ROOT; };
+		88BC5BAD916B41DE9E6CFCB2 /* whip_client.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = whip_client.h; path = src/utils/whip_client.h; sourceTree = SOURCE_ROOT; };
+		8C7D04E89A4F4DC6A863AE92 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9439514041FE4452B315599B /* wtn_stats_callback.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_stats_callback.h; path = src/wtn_stats_callback.h; sourceTree = SOURCE_ROOT; };
+		99334100D3494931B4C46C63 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = build_ios/CMakeFiles/TalWTN.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		9A06AB6075DF41DDA573C5E3 /* wtn_engine.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wtn_engine.cc; path = src/wtn_engine.cc; sourceTree = SOURCE_ROOT; };
+		9A640FB84A6A4F2A84213B28 /* TALWTNSubscriber.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TALWTNSubscriber.h; path = sdk/ios/TALWTNSubscriber.h; sourceTree = SOURCE_ROOT; };
+		9C05681B08F24F44BE493B66 /* objc_platform_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = objc_platform_helper.h; path = src/platform/objc_platform_helper.h; sourceTree = SOURCE_ROOT; };
+		A5AA0E961759421A8FA54EAA /* wtn_engine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_engine.h; path = src/wtn_engine.h; sourceTree = SOURCE_ROOT; };
+		A70A03C3755F49D4AB38E777 /* external_video_source.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = external_video_source.cc; path = src/external_module/external_video_source.cc; sourceTree = SOURCE_ROOT; };
+		ADC5384CF7434CAF8169A3E6 /* RTCMTLNV12Renderer.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = RTCMTLNV12Renderer.o; path = /Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/RTCMTLNV12Renderer.o; sourceTree = "<absolute>"; };
+		BF50D024F8944924AB1577A5 /* whip_client.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = whip_client.cc; path = src/utils/whip_client.cc; sourceTree = SOURCE_ROOT; };
+		C73096AB08264EA589BB9A65 /* video_sink_proxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = video_sink_proxy.h; path = src/external_module/video_sink_proxy.h; sourceTree = SOURCE_ROOT; };
+		C769F8D12CDB4C65B629CA4D /* TALWTNEngine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TALWTNEngine.h; path = sdk/ios/TALWTNEngine.h; sourceTree = SOURCE_ROOT; };
+		CBD7261BF0074C36A96439EA /* wtn_stats_callback.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wtn_stats_callback.cc; path = src/wtn_stats_callback.cc; sourceTree = SOURCE_ROOT; };
+		D1EAFE29BB6B466F90DC936A /* AVCaptureSession+DevicePosition.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "AVCaptureSession+DevicePosition.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/AVCaptureSession+DevicePosition.o"; sourceTree = "<absolute>"; };
+		D62338D32B534F1A8C7C1CC8 /* UIDevice+H264Profile.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "UIDevice+H264Profile.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/UIDevice+H264Profile.o"; sourceTree = "<absolute>"; };
+		DAC4ADA91D4A44C3A3248139 /* wtn_publisher_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_publisher_impl.h; path = src/wtn_publisher_impl.h; sourceTree = SOURCE_ROOT; };
+		DDC6D875E41C4D94B2B71856 /* wtn_publisher_impl.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wtn_publisher_impl.cc; path = src/wtn_publisher_impl.cc; sourceTree = SOURCE_ROOT; };
+		E37F31414F584E5A92E4FA80 /* TALWTNEngine.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = TALWTNEngine.mm; path = sdk/ios/TALWTNEngine.mm; sourceTree = SOURCE_ROOT; };
+		ECAAEA296E304704801716D4 /* RTCVideoEncoderSettings+Private.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "RTCVideoEncoderSettings+Private.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/RTCVideoEncoderSettings+Private.o"; sourceTree = "<absolute>"; };
+		ECE850E7C1D14914BF53CE00 /* wtn_interface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wtn_interface.h; path = src/wtn_interface.h; sourceTree = SOURCE_ROOT; };
+		F71F58F5F2DC458F83E59444 /* fake_decoder.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fake_decoder.cc; path = src/external_module/fake_decoder.cc; sourceTree = SOURCE_ROOT; };
+		FD72AC81D45D417CBB7442CF /* RTCVideoCodecInfo+Private.o */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.objfile"; name = "RTCVideoCodecInfo+Private.o"; path = "/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/RTCVideoCodecInfo+Private.o"; sourceTree = "<absolute>"; };
+		FE281376CC1F4071971E0085 /* fake_decoder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fake_decoder.h; path = src/external_module/fake_decoder.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B524F007F99547658A9FD99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B7152816F44DB0A5A562A1 /* AVCaptureSession+DevicePosition.o in Frameworks */,
+				1AC3C4FC26394416A662176E /* NSString+StdString.o in Frameworks */,
+				22714CE2A8B342349C246E95 /* RTCAudioSession+Configuration.o in Frameworks */,
+				A708C5E7EAC341D3BC29D9CF /* RTCEncodedImage+Private.o in Frameworks */,
+				C1B7C222651B4B0AA1CA4D7A /* RTCMTLI420Renderer.o in Frameworks */,
+				B648D8E0808F46DC8584D669 /* RTCMTLNV12Renderer.o in Frameworks */,
+				2FC98AB44286423F88F4B222 /* RTCVideoCodecInfo+Private.o in Frameworks */,
+				F6FD9282F1924622A6239301 /* RTCVideoEncoderSettings+Private.o in Frameworks */,
+				DA2D24E49F8F4547A5D26AA7 /* UIDevice+H264Profile.o in Frameworks */,
+				066B38E01A9C4510B39EED1F /* UIDevice+RTCDevice.o in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0CEC04FAAC43EF97B1875E /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				9C05681B08F24F44BE493B66 /* objc_platform_helper.h */,
+				71485FA8F06D45B5828A5FC7 /* objc_platform_helper.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		5DF227FBDA5742038766114A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AD209967BF847AE984D19A2 /* TalWTN.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637F2B0CDB0247659204981A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				72D284A726B74FEF9BBDCDA9 /* CMake Rules */,
+				72C6DBA5F32A4708B210831A /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6D01B4ACCF2D41E3AC36CDF6 /* TalWTN */ = {
+			isa = PBXGroup;
+			children = (
+				C121D601778E472485DA09A5 /* src */,
+				7AC11EDE22A14209A20EB796 /* sdk */,
+				BF91E36128A54C7483EFFE33 /* Object Files */,
+				81F7FFB403644080A6BA5499 /* Resources */,
+				8C7D04E89A4F4DC6A863AE92 /* CMakeLists.txt */,
+			);
+			name = TalWTN;
+			sourceTree = "<group>";
+		};
+		70E7008A28EA464AB84EE07C = {
+			isa = PBXGroup;
+			children = (
+				6D01B4ACCF2D41E3AC36CDF6 /* TalWTN */,
+				637F2B0CDB0247659204981A /* ALL_BUILD */,
+				5DF227FBDA5742038766114A /* Products */,
+				A8A2A6BD2ACF4AEDB482B822 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72D284A726B74FEF9BBDCDA9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7AC11EDE22A14209A20EB796 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				B356812601314BB8857D21B8 /* ios */,
+			);
+			name = sdk;
+			sourceTree = "<group>";
+		};
+		81F7FFB403644080A6BA5499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99334100D3494931B4C46C63 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A8A2A6BD2ACF4AEDB482B822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B356812601314BB8857D21B8 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				42578AC162D547D2AE61479A /* TALWTNDefines.h */,
+				C769F8D12CDB4C65B629CA4D /* TALWTNEngine.h */,
+				E37F31414F584E5A92E4FA80 /* TALWTNEngine.mm */,
+				7B092CFCCE454CA1A04DA9CA /* TALWTNEventHandler.h */,
+				3ACFDF2A529247C7886F57D1 /* TALWTNEventHandler.mm */,
+				7BCB3697C9CF48FEB5FA8C0F /* TALWTNPubSubInternal.h */,
+				68E9F72EC1004D929872F1F1 /* TALWTNPublisher.h */,
+				882B30AC7AE14A6694DF1E9D /* TALWTNPublisher.mm */,
+				9A640FB84A6A4F2A84213B28 /* TALWTNSubscriber.h */,
+				795A954DE67B491683C1131F /* TALWTNSubscriber.mm */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+		BF91E36128A54C7483EFFE33 /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1EAFE29BB6B466F90DC936A /* AVCaptureSession+DevicePosition.o */,
+				8718AD762C694A08B25AC043 /* NSString+StdString.o */,
+				52C9F6D7FDF64D439154553C /* RTCAudioSession+Configuration.o */,
+				114211A7AB3F46E88A85B9FF /* RTCEncodedImage+Private.o */,
+				36CC6DA219C5489690AC7EC1 /* RTCMTLI420Renderer.o */,
+				ADC5384CF7434CAF8169A3E6 /* RTCMTLNV12Renderer.o */,
+				FD72AC81D45D417CBB7442CF /* RTCVideoCodecInfo+Private.o */,
+				ECAAEA296E304704801716D4 /* RTCVideoEncoderSettings+Private.o */,
+				D62338D32B534F1A8C7C1CC8 /* UIDevice+H264Profile.o */,
+				2AED6D3253B4444FA000E202 /* UIDevice+RTCDevice.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		C121D601778E472485DA09A5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F7712D418BA34C1281FFB25B /* utils */,
+				DF5B3120074E4DA2B19D8FD8 /* external_module */,
+				0B0CEC04FAAC43EF97B1875E /* platform */,
+				9A06AB6075DF41DDA573C5E3 /* wtn_engine.cc */,
+				A5AA0E961759421A8FA54EAA /* wtn_engine.h */,
+				0E33474ED9624280A45ADDA1 /* wtn_event_handler.cc */,
+				364930756FBC471D8B4E1B18 /* wtn_event_handler.h */,
+				ECE850E7C1D14914BF53CE00 /* wtn_interface.h */,
+				DDC6D875E41C4D94B2B71856 /* wtn_publisher_impl.cc */,
+				DAC4ADA91D4A44C3A3248139 /* wtn_publisher_impl.h */,
+				CBD7261BF0074C36A96439EA /* wtn_stats_callback.cc */,
+				9439514041FE4452B315599B /* wtn_stats_callback.h */,
+				4E6E7A889E2041DF9F14A6B6 /* wtn_subscriber_impl.cc */,
+				27C1029BC78B487B84994DF3 /* wtn_subscriber_impl.h */,
+				5B3DC85241E540F7B89B45CC /* wtn_webrtc_wrapper.cc */,
+				21F6BDA7C2544711BAA473B2 /* wtn_webrtc_wrapper.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		DF5B3120074E4DA2B19D8FD8 /* external_module */ = {
+			isa = PBXGroup;
+			children = (
+				4E2AF280B4B542D3959B5775 /* external_audio_device_module.cc */,
+				20D36D34C564428C916EC0C2 /* external_audio_device_module.h */,
+				A70A03C3755F49D4AB38E777 /* external_video_source.cc */,
+				3E9851A51CAC42A58D1C3E9B /* external_video_source.h */,
+				F71F58F5F2DC458F83E59444 /* fake_decoder.cc */,
+				FE281376CC1F4071971E0085 /* fake_decoder.h */,
+				62A49CB669A54A64B146142D /* fake_encoder.cc */,
+				42C79F232F3444B1A2E18EAD /* fake_encoder.h */,
+				2EFBFA733CD14720A2C687D0 /* video_sink_proxy.cc */,
+				C73096AB08264EA589BB9A65 /* video_sink_proxy.h */,
+			);
+			name = external_module;
+			sourceTree = "<group>";
+		};
+		F7712D418BA34C1281FFB25B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				732E5A56320044B6A74A2941 /* http_client.cc */,
+				10BEC9EC9D5047CB9291A2BD /* http_client.h */,
+				BF50D024F8944924AB1577A5 /* whip_client.cc */,
+				88BC5BAD916B41DE9E6CFCB2 /* whip_client.h */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67B9F91738164CD7A54D37B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC1DEDEA9E54E008F452D71 /* TALWTNDefines.h in Headers */,
+				3B1EF097A9064EC6B4CDDCD3 /* TALWTNEngine.h in Headers */,
+				1A3FF0BCE2044883A36F8B25 /* TALWTNEventHandler.h in Headers */,
+				AEB99F044DAD405784BC10B2 /* TALWTNPubSubInternal.h in Headers */,
+				EFA9CE0A64414E0882E769EB /* TALWTNPublisher.h in Headers */,
+				3D4C7A8B75844D37B2D3C06A /* TALWTNSubscriber.h in Headers */,
+				D993A11D01E64EAE9B9BF3C6 /* external_audio_device_module.h in Headers */,
+				1200A8B9AF9C461292C3335B /* external_video_source.h in Headers */,
+				DE88C21E70CE49298741EC92 /* fake_decoder.h in Headers */,
+				A5D2045ED8794A53A3F9263F /* fake_encoder.h in Headers */,
+				BFC88F687BF945D28C223742 /* video_sink_proxy.h in Headers */,
+				F30431E51239409E8B2E9831 /* objc_platform_helper.h in Headers */,
+				B2C4AF4127B0462BB3D437D8 /* http_client.h in Headers */,
+				C3BB4C57E74C43EF85670542 /* whip_client.h in Headers */,
+				FB0BCDF8A09849EB81EF38CD /* wtn_engine.h in Headers */,
+				5B45DB07604B47F9B8B1C987 /* wtn_event_handler.h in Headers */,
+				48B570A823F4453C9581E52E /* wtn_interface.h in Headers */,
+				8EB451AC96174AC38A3CFCF3 /* wtn_publisher_impl.h in Headers */,
+				E4A8380158B64DA48A4CE707 /* wtn_stats_callback.h in Headers */,
+				48B97F005E5B428EB0B459D9 /* wtn_subscriber_impl.h in Headers */,
+				8737AE3BBA2146DEA5743266 /* wtn_webrtc_wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7825852EAAB7481092A6C8F2 /* TalWTN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2A9CB27AD64C02957388AE /* Build configuration list for PBXNativeTarget "TalWTN" */;
+			buildPhases = (
+				67B9F91738164CD7A54D37B3 /* Headers */,
+				E0B84E679C604523A8FD7231 /* Sources */,
+				B524F007F99547658A9FD99C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalWTN;
+			productName = TalWTN;
+			productReference = 1AD209967BF847AE984D19A2 /* TalWTN.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A5714F75883451BB24210D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = F7F36E422BF448A08739CC82 /* Build configuration list for PBXProject "TalWTN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70E7008A28EA464AB84EE07C;
+			projectDirPath = /Users/tal/Desktop/TAL/talwtn/SDK;
+			projectRoot = "";
+			targets = (
+				6220F479DD3A4B0D8CDDF4F9 /* ALL_BUILD */,
+				7825852EAAB7481092A6C8F2 /* TalWTN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D589EFF5AF4A4EB4B96E30F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/ALL_BUILD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/tal/Desktop/TAL/talwtn/SDK/build_ios\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/tal/Desktop/TAL/talwtn/SDK/build_ios\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/tal/Desktop/TAL/talwtn/SDK/build_ios\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/tal/Desktop/TAL/talwtn/SDK/build_ios\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0B84E679C604523A8FD7231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFC2673CD8044EB8B99442B /* TALWTNEngine.mm in Sources */,
+				EF334BC5EEB842AB895DDE61 /* TALWTNEventHandler.mm in Sources */,
+				5EBC3998EC834E7CA41A32A0 /* TALWTNPublisher.mm in Sources */,
+				3767FE9483E64859B1A0FBEF /* TALWTNSubscriber.mm in Sources */,
+				54E5F0B8C6604B86BE748B21 /* external_audio_device_module.cc in Sources */,
+				2A919A4D0F3A4258BFA9D07B /* external_video_source.cc in Sources */,
+				9C6E6CA61F804DE696B76CF7 /* fake_decoder.cc in Sources */,
+				2AC25056CFB64D9B8B7B9E3B /* fake_encoder.cc in Sources */,
+				F2CEFF1A96214238BB48DA7C /* video_sink_proxy.cc in Sources */,
+				6F426D67F26341FC8453AE2D /* objc_platform_helper.mm in Sources */,
+				8DC4E2F0926E400CBA160635 /* http_client.cc in Sources */,
+				F399C55D8334454C989F092F /* whip_client.cc in Sources */,
+				7B9BDB36002B495B8273CD8A /* wtn_engine.cc in Sources */,
+				9BC9AD6314DA480D862E74C9 /* wtn_event_handler.cc in Sources */,
+				882713CC2DBC4529B830E088 /* wtn_publisher_impl.cc in Sources */,
+				8B0F9EB0CEEC408A9335758F /* wtn_stats_callback.cc in Sources */,
+				3757811D014B413BAE8A2ABB /* wtn_subscriber_impl.cc in Sources */,
+				D15895AE5A4A49CD8C083EA5 /* wtn_webrtc_wrapper.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E70351140D742C78ADDD794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7825852EAAB7481092A6C8F2 /* TalWTN */;
+			targetProxy = F48C3912B52249F2A065935E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A2C6565431C43EA92EBFB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/Release;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = z;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					TalWTN_EXPORTS,
+					WEBRTC_POSIX,
+					WEBRTC_IOS,
+					WEBRTC_MAC,
+					WEBRTC_HAS_NEON,
+					"'RTC_PLATFORM_IOS=1'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc/base,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/system/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/asio/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/uuid/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/lexical_cast/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/config/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/type_traits/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/io/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/predef/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/throw_exception/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/range/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/static_assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/detail/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/core/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/move/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/date_time/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/smart_ptr/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/random/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/utility/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/iterator/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/integer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/mpl/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/preprocessor/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tti/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/numeric_conversion/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/function_types/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/bind/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/regex/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/concept_check/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/algorithm/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/array/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/container/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/math/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tokenizer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/winapi/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/crc/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers,
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/abseil-cpp",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/boringssl/src/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/libyuv/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src/sdk/ios,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/TalWTN.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios,
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fmerge-all-constants",
+					"-fstrict-aliasing",
+					"-DNDEBUG=1",
+					"-D_NDEBUG=1",
+					"-Wno-multichar",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fno-rtti",
+					"-fmerge-all-constants",
+					"-DNDEBUG=1",
+					"-D_NDEBUG=1",
+					"-std=gnu++17",
+					"-Wno-multichar",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-search_paths_first",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/libwebrtc.a,
+					"-lresolv",
+					"-framework",
+					UIKit,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Accelerate,
+					"-framework",
+					IOKit,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					Foundation,
+					"-framework",
+					MetalKit,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolBox,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					WebKit,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					Metal,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talwtn;
+				PRODUCT_NAME = TalWTN;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				STRIPFLAGS = "-x";
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				STRIP_SWIFT_SYMBOLS = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build/TalWTN.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		1ABC149EB9C04A11A22B35D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk;
+				SYMROOT = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = MinSizeRel;
+		};
+		2330A99AFE694137BE88EDB4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		23569301E15F4244AEC5481C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk;
+				SYMROOT = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25D3A786C1B547548FE85727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/Debug;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					TalWTN_EXPORTS,
+					WEBRTC_POSIX,
+					WEBRTC_IOS,
+					WEBRTC_MAC,
+					WEBRTC_HAS_NEON,
+					"'RTC_PLATFORM_IOS=1'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc/base,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/system/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/asio/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/uuid/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/lexical_cast/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/config/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/type_traits/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/io/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/predef/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/throw_exception/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/range/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/static_assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/detail/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/core/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/move/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/date_time/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/smart_ptr/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/random/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/utility/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/iterator/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/integer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/mpl/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/preprocessor/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tti/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/numeric_conversion/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/function_types/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/bind/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/regex/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/concept_check/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/algorithm/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/array/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/container/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/math/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tokenizer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/winapi/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/crc/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers,
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/abseil-cpp",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/boringssl/src/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/libyuv/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src/sdk/ios,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/TalWTN.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios,
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fmerge-all-constants",
+					"-fstrict-aliasing",
+					"-O0",
+					"-g",
+					"-DDEBUG=1",
+					"-D_DEBUG=1",
+					"-Wno-multichar",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fno-rtti",
+					"-fmerge-all-constants",
+					"-O0",
+					"-g",
+					"-DDEBUG=1",
+					"-D_DEBUG=1",
+					"-std=gnu++17",
+					"-Wno-multichar",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-search_paths_first",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/libwebrtc.a,
+					"-lresolv",
+					"-framework",
+					UIKit,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Accelerate,
+					"-framework",
+					IOKit,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					Foundation,
+					"-framework",
+					MetalKit,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolBox,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					WebKit,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					Metal,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talwtn;
+				PRODUCT_NAME = TalWTN;
+				SECTORDER_FLAGS = "";
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				STRIP_SWIFT_SYMBOLS = NO;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build/TalWTN.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		4DA48FD22C6347F7B8E9ADCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk;
+				SYMROOT = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		551FC6D5A24B48A78E3058FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/MinSizeRel;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					TalWTN_EXPORTS,
+					WEBRTC_POSIX,
+					WEBRTC_IOS,
+					WEBRTC_MAC,
+					WEBRTC_HAS_NEON,
+					"'RTC_PLATFORM_IOS=1'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc/base,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/system/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/asio/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/uuid/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/lexical_cast/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/config/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/type_traits/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/io/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/predef/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/throw_exception/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/range/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/static_assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/detail/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/core/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/move/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/date_time/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/smart_ptr/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/random/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/utility/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/iterator/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/integer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/mpl/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/preprocessor/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tti/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/numeric_conversion/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/function_types/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/bind/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/regex/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/concept_check/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/algorithm/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/array/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/container/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/math/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tokenizer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/winapi/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/crc/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers,
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/abseil-cpp",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/boringssl/src/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/libyuv/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src/sdk/ios,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/TalWTN.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios,
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Os",
+					"-DNDEBUG",
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fmerge-all-constants",
+					"-fstrict-aliasing",
+					"-Wno-multichar",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Os",
+					"-DNDEBUG",
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fno-rtti",
+					"-fmerge-all-constants",
+					"-std=gnu++17",
+					"-Wno-multichar",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-search_paths_first",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/libwebrtc.a,
+					"-lresolv",
+					"-framework",
+					UIKit,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Accelerate,
+					"-framework",
+					IOKit,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					Foundation,
+					"-framework",
+					MetalKit,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolBox,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					WebKit,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					Metal,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talwtn;
+				PRODUCT_NAME = TalWTN;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build/TalWTN.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		609D6BE82C8C48548E3C211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		799663933FA840F2A5773847 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk;
+				SYMROOT = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RelWithDebInfo;
+		};
+		9A530D9DEAFD4AEE984EE312 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		AA742071CB664623927DC188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		BA84747A849F41D5B3D98220 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/RelWithDebInfo;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					TalWTN_EXPORTS,
+					WEBRTC_POSIX,
+					WEBRTC_IOS,
+					WEBRTC_MAC,
+					WEBRTC_HAS_NEON,
+					"'RTC_PLATFORM_IOS=1'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/sdk/objc/base,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/system/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/asio/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/uuid/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/lexical_cast/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/config/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/type_traits/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/io/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/predef/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/throw_exception/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/range/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/static_assert/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/detail/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/core/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/move/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/date_time/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/smart_ptr/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/random/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/utility/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/iterator/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/integer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/mpl/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/preprocessor/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tti/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/numeric_conversion/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/function_types/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/bind/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/regex/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/concept_check/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/algorithm/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/array/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/container/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/math/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/tokenizer/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/winapi/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/boost_1_69_0/boost/crc/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers,
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/abseil-cpp",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/boringssl/src/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/headers/third_party/libyuv/include,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src,
+					/Users/tal/Desktop/TAL/talwtn/SDK/src/sdk/ios,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = /Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/TalWTN.dir/Info.plist;
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios,
+					"$(inherited)",
+				);
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-O2",
+					"-g",
+					"-DNDEBUG",
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fmerge-all-constants",
+					"-fstrict-aliasing",
+					"-Wno-multichar",
+					"-O3",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-O2",
+					"-g",
+					"-DNDEBUG",
+					"$(inherited)",
+					"-fcolor-diagnostics",
+					"-fobjc-arc",
+					"-fno-rtti",
+					"-fmerge-all-constants",
+					"-std=gnu++17",
+					"-Wno-multichar",
+					"-O3",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-search_paths_first",
+					/Users/tal/Desktop/TAL/talwtn/SDK/third_party/webrtc/ios/libwebrtc.a,
+					"-lresolv",
+					"-framework",
+					UIKit,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					Accelerate,
+					"-framework",
+					IOKit,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					Foundation,
+					"-framework",
+					MetalKit,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolBox,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					WebKit,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					VideoToolbox,
+					"-framework",
+					Metal,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talwtn;
+				PRODUCT_NAME = TalWTN;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/tal/Desktop/TAL/talwtn/SDK,
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/build/TalWTN.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C89629F2EE4B5DA35C8E7A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609D6BE82C8C48548E3C211E /* Debug */,
+				AA742071CB664623927DC188 /* Release */,
+				2330A99AFE694137BE88EDB4 /* RelWithDebInfo */,
+				9A530D9DEAFD4AEE984EE312 /* MinSizeRel */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F2A9CB27AD64C02957388AE /* Build configuration list for PBXNativeTarget "TalWTN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D3A786C1B547548FE85727 /* Debug */,
+				1A2C6565431C43EA92EBFB7B /* Release */,
+				BA84747A849F41D5B3D98220 /* RelWithDebInfo */,
+				551FC6D5A24B48A78E3058FC /* MinSizeRel */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7F36E422BF448A08739CC82 /* Build configuration list for PBXProject "TalWTN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23569301E15F4244AEC5481C /* Debug */,
+				4DA48FD22C6347F7B8E9ADCB /* Release */,
+				799663933FA840F2A5773847 /* RelWithDebInfo */,
+				1ABC149EB9C04A11A22B35D6 /* MinSizeRel */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A5714F75883451BB24210D8 /* Project object */;
+}

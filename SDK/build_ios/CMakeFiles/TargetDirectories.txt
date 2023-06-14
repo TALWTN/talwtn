@@ -1,0 +1,2 @@
+/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/TalWTN.dir
+/Users/tal/Desktop/TAL/talwtn/SDK/build_ios/CMakeFiles/ALL_BUILD.dir

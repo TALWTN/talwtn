@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF46580E84BE19EEE44DF50 /* Pods_TalWTNDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BE76C15EA35E80DD9908FF /* Pods_TalWTNDemoTests.framework */; };
+		2B13888028562D4800E40A49 /* MenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B13887E28562D4700E40A49 /* MenuItemButton.m */; };
+		2B138897285711F500E40A49 /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B138895285711CC00E40A49 /* AVFAudio.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		2B2DA1D72855E1B00052654A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1D62855E1B00052654A /* AppDelegate.m */; };
+		2B2DA1DA2855E1B00052654A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1D92855E1B00052654A /* SceneDelegate.m */; };
+		2B2DA1DD2855E1B00052654A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1DC2855E1B00052654A /* ViewController.m */; };
+		2B2DA1E02855E1B00052654A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DA1DE2855E1B00052654A /* Main.storyboard */; };
+		2B2DA1E22855E1B10052654A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DA1E12855E1B10052654A /* Assets.xcassets */; };
+		2B2DA1E52855E1B10052654A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DA1E32855E1B10052654A /* LaunchScreen.storyboard */; };
+		2B2DA1E82855E1B10052654A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1E72855E1B10052654A /* main.m */; };
+		2B2DA1F22855E1B20052654A /* TalWTNDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1F12855E1B20052654A /* TalWTNDemoTests.m */; };
+		2B2DA1FC2855E1B20052654A /* TalWTNDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1FB2855E1B20052654A /* TalWTNDemoUITests.m */; };
+		2B2DA1FE2855E1B20052654A /* TalWTNDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA1FD2855E1B20052654A /* TalWTNDemoUITestsLaunchTests.m */; };
+		2B2DA2332855E2670052654A /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA2322855E2670052654A /* BaseButton.m */; };
+		2B2DA2362855E2750052654A /* DeviceInforTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA2342855E2750052654A /* DeviceInforTool.m */; };
+		2B2DA23B2855E27D0052654A /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA2372855E27D0052654A /* ToastView.m */; };
+		2B2DA23C2855E27D0052654A /* ToastComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA2382855E27D0052654A /* ToastComponents.m */; };
+		2B2DA2422855E28D0052654A /* UIColor+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA2402855E28C0052654A /* UIColor+String.m */; };
+		2B2DA2492855F5DB0052654A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA2482855F5DB0052654A /* MenuViewController.m */; };
+		2B2DA25E28560D540052654A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA25D28560D540052654A /* HomeViewController.m */; };
+		2B2DA26428560DDE0052654A /* SceneButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA26228560DDE0052654A /* SceneButtonModel.m */; };
+		2B2DA26728560E030052654A /* ScenesItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA26628560E030052654A /* ScenesItemButton.m */; };
+		2B2DA27028561A0B0052654A /* PushStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA26F28561A0B0052654A /* PushStreamingViewController.m */; };
+		2B2DA27328561A180052654A /* PullStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA27228561A180052654A /* PullStreamingViewController.m */; };
+		2B2DA27928561C270052654A /* UserLiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DA27728561C270052654A /* UserLiveView.m */; };
+		2B97D69628597C430043A8D2 /* PullStreamingFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B97D69528597C430043A8D2 /* PullStreamingFailView.m */; };
+		3F68E26DEC656931CD41523B /* Pods_TalWTNDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59C6041F145A2705FBDEF3F /* Pods_TalWTNDemo.framework */; };
+		3FB185312A0E0AB1004DBF01 /* TalWTN.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1852F2A0E0AB1004DBF01 /* TalWTN.framework.dSYM */; };
+		3FB185322A0E0B32004DBF01 /* TalWTN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB1852E2A0E0AB1004DBF01 /* TalWTN.framework */; };
+		3FB185332A0E0B32004DBF01 /* TalWTN.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB1852E2A0E0AB1004DBF01 /* TalWTN.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3FB185392A11E5E9004DBF01 /* TalWTNLoggerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB185372A11E5E9004DBF01 /* TalWTNLoggerUtil.m */; };
+		76F8E4D8672C34EF7AF465E9 /* Pods_TalWTNDemo_TalWTNDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D60BC9C389B55C6F0BA5BC1 /* Pods_TalWTNDemo_TalWTNDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2DA1EE2855E1B20052654A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2DA1CA2855E1B00052654A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2DA1D12855E1B00052654A;
+			remoteInfo = WebRtcDemo;
+		};
+		2B2DA1F82855E1B20052654A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2DA1CA2855E1B00052654A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2DA1D12855E1B00052654A;
+			remoteInfo = WebRtcDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B13887D285628A200E40A49 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3FB185332A0E0B32004DBF01 /* TalWTN.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		155E364D61DE68D8580301E7 /* Pods-TalWTNDemo-TalWTNDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalWTNDemo-TalWTNDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalWTNDemo-TalWTNDemoUITests/Pods-TalWTNDemo-TalWTNDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D60BC9C389B55C6F0BA5BC1 /* Pods_TalWTNDemo_TalWTNDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalWTNDemo_TalWTNDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B13887E28562D4700E40A49 /* MenuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemButton.m; sourceTree = "<group>"; };
+		2B13887F28562D4800E40A49 /* MenuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemButton.h; sourceTree = "<group>"; };
+		2B138895285711CC00E40A49 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		2B2DA1D22855E1B00052654A /* TalWTNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalWTNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2DA1D52855E1B00052654A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B2DA1D62855E1B00052654A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B2DA1D82855E1B00052654A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2B2DA1D92855E1B00052654A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2B2DA1DB2855E1B00052654A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B2DA1DC2855E1B00052654A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B2DA1DF2855E1B00052654A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2DA1E12855E1B10052654A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2DA1E42855E1B10052654A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2DA1E62855E1B10052654A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2DA1E72855E1B10052654A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B2DA1ED2855E1B20052654A /* TalWTNDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalWTNDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2DA1F12855E1B20052654A /* TalWTNDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalWTNDemoTests.m; sourceTree = "<group>"; };
+		2B2DA1F72855E1B20052654A /* TalWTNDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalWTNDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2DA1FB2855E1B20052654A /* TalWTNDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalWTNDemoUITests.m; sourceTree = "<group>"; };
+		2B2DA1FD2855E1B20052654A /* TalWTNDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalWTNDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		2B2DA2312855E2670052654A /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		2B2DA2322855E2670052654A /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		2B2DA2342855E2750052654A /* DeviceInforTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInforTool.m; sourceTree = "<group>"; };
+		2B2DA2352855E2750052654A /* DeviceInforTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInforTool.h; sourceTree = "<group>"; };
+		2B2DA2372855E27D0052654A /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		2B2DA2382855E27D0052654A /* ToastComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastComponents.m; sourceTree = "<group>"; };
+		2B2DA2392855E27D0052654A /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		2B2DA23A2855E27D0052654A /* ToastComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastComponents.h; sourceTree = "<group>"; };
+		2B2DA2402855E28C0052654A /* UIColor+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+String.m"; sourceTree = "<group>"; };
+		2B2DA2412855E28D0052654A /* UIColor+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+String.h"; sourceTree = "<group>"; };
+		2B2DA2432855E2E50052654A /* TalWTNDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalWTNDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2B2DA2472855F5DB0052654A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		2B2DA2482855F5DB0052654A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		2B2DA25C28560D540052654A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2B2DA25D28560D540052654A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2B2DA26228560DDE0052654A /* SceneButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneButtonModel.m; sourceTree = "<group>"; };
+		2B2DA26328560DDE0052654A /* SceneButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneButtonModel.h; sourceTree = "<group>"; };
+		2B2DA26528560E030052654A /* ScenesItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenesItemButton.h; sourceTree = "<group>"; };
+		2B2DA26628560E030052654A /* ScenesItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenesItemButton.m; sourceTree = "<group>"; };
+		2B2DA26E28561A0B0052654A /* PushStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushStreamingViewController.h; sourceTree = "<group>"; };
+		2B2DA26F28561A0B0052654A /* PushStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushStreamingViewController.m; sourceTree = "<group>"; };
+		2B2DA27128561A180052654A /* PullStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullStreamingViewController.h; sourceTree = "<group>"; };
+		2B2DA27228561A180052654A /* PullStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullStreamingViewController.m; sourceTree = "<group>"; };
+		2B2DA27728561C270052654A /* UserLiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLiveView.m; sourceTree = "<group>"; };
+		2B2DA27828561C270052654A /* UserLiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLiveView.h; sourceTree = "<group>"; };
+		2B97D69428597C430043A8D2 /* PullStreamingFailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullStreamingFailView.h; sourceTree = "<group>"; };
+		2B97D69528597C430043A8D2 /* PullStreamingFailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullStreamingFailView.m; sourceTree = "<group>"; };
+		36DF963930248ABC74A9BFF9 /* Pods-TalWTNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalWTNDemo.debug.xcconfig"; path = "Target Support Files/Pods-TalWTNDemo/Pods-TalWTNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3FB1852E2A0E0AB1004DBF01 /* TalWTN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TalWTN.framework; sourceTree = "<group>"; };
+		3FB1852F2A0E0AB1004DBF01 /* TalWTN.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = TalWTN.framework.dSYM; sourceTree = "<group>"; };
+		3FB185372A11E5E9004DBF01 /* TalWTNLoggerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalWTNLoggerUtil.m; sourceTree = "<group>"; };
+		3FB185382A11E5E9004DBF01 /* TalWTNLoggerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalWTNLoggerUtil.h; sourceTree = "<group>"; };
+		5CF544A4BCAF271C04E80AD9 /* Pods-TalWTNDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalWTNDemoTests.release.xcconfig"; path = "Target Support Files/Pods-TalWTNDemoTests/Pods-TalWTNDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		68CF141B99C8AA29B0D2E20D /* Pods-TalWTNDemo-TalWTNDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalWTNDemo-TalWTNDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-TalWTNDemo-TalWTNDemoUITests/Pods-TalWTNDemo-TalWTNDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78BE76C15EA35E80DD9908FF /* Pods_TalWTNDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalWTNDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84D5346D78ACD9350775676 /* Pods-TalWTNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalWTNDemo.release.xcconfig"; path = "Target Support Files/Pods-TalWTNDemo/Pods-TalWTNDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D59C6041F145A2705FBDEF3F /* Pods_TalWTNDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalWTNDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F110BB23813CFB7FE38BFE87 /* Pods-TalWTNDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalWTNDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-TalWTNDemoTests/Pods-TalWTNDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2DA1CF2855E1B00052654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB185322A0E0B32004DBF01 /* TalWTN.framework in Frameworks */,
+				2B138897285711F500E40A49 /* AVFAudio.framework in Frameworks */,
+				3F68E26DEC656931CD41523B /* Pods_TalWTNDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DA1EA2855E1B20052654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF46580E84BE19EEE44DF50 /* Pods_TalWTNDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DA1F42855E1B20052654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F8E4D8672C34EF7AF465E9 /* Pods_TalWTNDemo_TalWTNDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2DA1C92855E1B00052654A = {
+			isa = PBXGroup;
+			children = (
+				2B2DA1D42855E1B00052654A /* TalWTNDemo */,
+				2B2DA1F02855E1B20052654A /* TalWTNDemoTests */,
+				2B2DA1FA2855E1B20052654A /* TalWTNDemoUITests */,
+				2B2DA1D32855E1B00052654A /* Products */,
+				D51705F82BF365DDF58B6693 /* Pods */,
+				ED96B464D7B00705F0896824 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2DA1D32855E1B00052654A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA1D22855E1B00052654A /* TalWTNDemo.app */,
+				2B2DA1ED2855E1B20052654A /* TalWTNDemoTests.xctest */,
+				2B2DA1F72855E1B20052654A /* TalWTNDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2DA1D42855E1B00052654A /* TalWTNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3FB185362A11E5E9004DBF01 /* Utils */,
+				3FB1852E2A0E0AB1004DBF01 /* TalWTN.framework */,
+				3FB1852F2A0E0AB1004DBF01 /* TalWTN.framework.dSYM */,
+				2B2DA2122855E2040052654A /* Common */,
+				2B2DA21B2855E2040052654A /* Home */,
+				2B2DA20A2855E2040052654A /* RTC */,
+				2B2DA1D52855E1B00052654A /* AppDelegate.h */,
+				2B2DA1D62855E1B00052654A /* AppDelegate.m */,
+				2B2DA2472855F5DB0052654A /* MenuViewController.h */,
+				2B2DA2482855F5DB0052654A /* MenuViewController.m */,
+				2B2DA2432855E2E50052654A /* TalWTNDemo-Prefix.pch */,
+				2B2DA1D82855E1B00052654A /* SceneDelegate.h */,
+				2B2DA1D92855E1B00052654A /* SceneDelegate.m */,
+				2B2DA1DB2855E1B00052654A /* ViewController.h */,
+				2B2DA1DC2855E1B00052654A /* ViewController.m */,
+				2B2DA1DE2855E1B00052654A /* Main.storyboard */,
+				2B2DA1E12855E1B10052654A /* Assets.xcassets */,
+				2B2DA1E32855E1B10052654A /* LaunchScreen.storyboard */,
+				2B2DA1E62855E1B10052654A /* Info.plist */,
+				2B2DA1E72855E1B10052654A /* main.m */,
+			);
+			path = TalWTNDemo;
+			sourceTree = "<group>";
+		};
+		2B2DA1F02855E1B20052654A /* TalWTNDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA1F12855E1B20052654A /* TalWTNDemoTests.m */,
+			);
+			path = TalWTNDemoTests;
+			sourceTree = "<group>";
+		};
+		2B2DA1FA2855E1B20052654A /* TalWTNDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA1FB2855E1B20052654A /* TalWTNDemoUITests.m */,
+				2B2DA1FD2855E1B20052654A /* TalWTNDemoUITestsLaunchTests.m */,
+			);
+			path = TalWTNDemoUITests;
+			sourceTree = "<group>";
+		};
+		2B2DA20A2855E2040052654A /* RTC */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA20B2855E2040052654A /* Controller */,
+				2B2DA20C2855E2040052654A /* View */,
+			);
+			path = RTC;
+			sourceTree = "<group>";
+		};
+		2B2DA20B2855E2040052654A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA26E28561A0B0052654A /* PushStreamingViewController.h */,
+				2B2DA26F28561A0B0052654A /* PushStreamingViewController.m */,
+				2B2DA27128561A180052654A /* PullStreamingViewController.h */,
+				2B2DA27228561A180052654A /* PullStreamingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B2DA20C2855E2040052654A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA27828561C270052654A /* UserLiveView.h */,
+				2B2DA27728561C270052654A /* UserLiveView.m */,
+				2B97D69428597C430043A8D2 /* PullStreamingFailView.h */,
+				2B97D69528597C430043A8D2 /* PullStreamingFailView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B2DA2122855E2040052654A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA2152855E2040052654A /* Category */,
+				2B2DA2162855E2040052654A /* Toast */,
+				2B2DA2172855E2040052654A /* Base */,
+				2B2DA21A2855E2040052654A /* Tool */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2B2DA2152855E2040052654A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA2412855E28D0052654A /* UIColor+String.h */,
+				2B2DA2402855E28C0052654A /* UIColor+String.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2B2DA2162855E2040052654A /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA23A2855E27D0052654A /* ToastComponents.h */,
+				2B2DA2382855E27D0052654A /* ToastComponents.m */,
+				2B2DA2392855E27D0052654A /* ToastView.h */,
+				2B2DA2372855E27D0052654A /* ToastView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		2B2DA2172855E2040052654A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA2192855E2040052654A /* view */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2B2DA2192855E2040052654A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2B13887F28562D4800E40A49 /* MenuItemButton.h */,
+				2B13887E28562D4700E40A49 /* MenuItemButton.m */,
+				2B2DA2312855E2670052654A /* BaseButton.h */,
+				2B2DA2322855E2670052654A /* BaseButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2B2DA21A2855E2040052654A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA2352855E2750052654A /* DeviceInforTool.h */,
+				2B2DA2342855E2750052654A /* DeviceInforTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2B2DA21B2855E2040052654A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA21C2855E2040052654A /* Controller */,
+				2B2DA21D2855E2040052654A /* Model */,
+				2B2DA21E2855E2040052654A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B2DA21C2855E2040052654A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA25C28560D540052654A /* HomeViewController.h */,
+				2B2DA25D28560D540052654A /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B2DA21D2855E2040052654A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA26328560DDE0052654A /* SceneButtonModel.h */,
+				2B2DA26228560DDE0052654A /* SceneButtonModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B2DA21E2855E2040052654A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DA26528560E030052654A /* ScenesItemButton.h */,
+				2B2DA26628560E030052654A /* ScenesItemButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FB185362A11E5E9004DBF01 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3FB185382A11E5E9004DBF01 /* TalWTNLoggerUtil.h */,
+				3FB185372A11E5E9004DBF01 /* TalWTNLoggerUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D51705F82BF365DDF58B6693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36DF963930248ABC74A9BFF9 /* Pods-TalWTNDemo.debug.xcconfig */,
+				A84D5346D78ACD9350775676 /* Pods-TalWTNDemo.release.xcconfig */,
+				155E364D61DE68D8580301E7 /* Pods-TalWTNDemo-TalWTNDemoUITests.debug.xcconfig */,
+				68CF141B99C8AA29B0D2E20D /* Pods-TalWTNDemo-TalWTNDemoUITests.release.xcconfig */,
+				F110BB23813CFB7FE38BFE87 /* Pods-TalWTNDemoTests.debug.xcconfig */,
+				5CF544A4BCAF271C04E80AD9 /* Pods-TalWTNDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED96B464D7B00705F0896824 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B138895285711CC00E40A49 /* AVFAudio.framework */,
+				D59C6041F145A2705FBDEF3F /* Pods_TalWTNDemo.framework */,
+				1D60BC9C389B55C6F0BA5BC1 /* Pods_TalWTNDemo_TalWTNDemoUITests.framework */,
+				78BE76C15EA35E80DD9908FF /* Pods_TalWTNDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2DA1D12855E1B00052654A /* TalWTNDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2DA2012855E1B20052654A /* Build configuration list for PBXNativeTarget "TalWTNDemo" */;
+			buildPhases = (
+				FEDFF8D7CCFCA13D2931A9D2 /* [CP] Check Pods Manifest.lock */,
+				2B2DA1CE2855E1B00052654A /* Sources */,
+				2B2DA1CF2855E1B00052654A /* Frameworks */,
+				2B2DA1D02855E1B00052654A /* Resources */,
+				F4DC4B4A91D3BEE16D56C9A0 /* [CP] Embed Pods Frameworks */,
+				2B13887D285628A200E40A49 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalWTNDemo;
+			productName = WebRtcDemo;
+			productReference = 2B2DA1D22855E1B00052654A /* TalWTNDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B2DA1EC2855E1B20052654A /* TalWTNDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2DA2042855E1B20052654A /* Build configuration list for PBXNativeTarget "TalWTNDemoTests" */;
+			buildPhases = (
+				D9F0674EA566BC4BF4FF11B9 /* [CP] Check Pods Manifest.lock */,
+				2B2DA1E92855E1B20052654A /* Sources */,
+				2B2DA1EA2855E1B20052654A /* Frameworks */,
+				2B2DA1EB2855E1B20052654A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2DA1EF2855E1B20052654A /* PBXTargetDependency */,
+			);
+			name = TalWTNDemoTests;
+			productName = WebRtcDemoTests;
+			productReference = 2B2DA1ED2855E1B20052654A /* TalWTNDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B2DA1F62855E1B20052654A /* TalWTNDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2DA2072855E1B20052654A /* Build configuration list for PBXNativeTarget "TalWTNDemoUITests" */;
+			buildPhases = (
+				EE524BDF07CE86E10F1A03C0 /* [CP] Check Pods Manifest.lock */,
+				2B2DA1F32855E1B20052654A /* Sources */,
+				2B2DA1F42855E1B20052654A /* Frameworks */,
+				2B2DA1F52855E1B20052654A /* Resources */,
+				A976937C3D9ABA7A9CF685E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2DA1F92855E1B20052654A /* PBXTargetDependency */,
+			);
+			name = TalWTNDemoUITests;
+			productName = WebRtcDemoUITests;
+			productReference = 2B2DA1F72855E1B20052654A /* TalWTNDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2DA1CA2855E1B00052654A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2B2DA1D12855E1B00052654A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2B2DA1EC2855E1B20052654A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2B2DA1D12855E1B00052654A;
+					};
+					2B2DA1F62855E1B20052654A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2B2DA1D12855E1B00052654A;
+					};
+				};
+			};
+			buildConfigurationList = 2B2DA1CD2855E1B00052654A /* Build configuration list for PBXProject "TalWTNDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2DA1C92855E1B00052654A;
+			productRefGroup = 2B2DA1D32855E1B00052654A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2DA1D12855E1B00052654A /* TalWTNDemo */,
+				2B2DA1EC2855E1B20052654A /* TalWTNDemoTests */,
+				2B2DA1F62855E1B20052654A /* TalWTNDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2DA1D02855E1B00052654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2DA1E52855E1B10052654A /* LaunchScreen.storyboard in Resources */,
+				2B2DA1E22855E1B10052654A /* Assets.xcassets in Resources */,
+				2B2DA1E02855E1B00052654A /* Main.storyboard in Resources */,
+				3FB185312A0E0AB1004DBF01 /* TalWTN.framework.dSYM in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DA1EB2855E1B20052654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DA1F52855E1B20052654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A976937C3D9ABA7A9CF685E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalWTNDemo-TalWTNDemoUITests/Pods-TalWTNDemo-TalWTNDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalWTNDemo-TalWTNDemoUITests/Pods-TalWTNDemo-TalWTNDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalWTNDemo-TalWTNDemoUITests/Pods-TalWTNDemo-TalWTNDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F0674EA566BC4BF4FF11B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalWTNDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE524BDF07CE86E10F1A03C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalWTNDemo-TalWTNDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DC4B4A91D3BEE16D56C9A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalWTNDemo/Pods-TalWTNDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalWTNDemo/Pods-TalWTNDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalWTNDemo/Pods-TalWTNDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDFF8D7CCFCA13D2931A9D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalWTNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2DA1CE2855E1B00052654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2DA2422855E28D0052654A /* UIColor+String.m in Sources */,
+				2B2DA2492855F5DB0052654A /* MenuViewController.m in Sources */,
+				2B2DA27328561A180052654A /* PullStreamingViewController.m in Sources */,
+				3FB185392A11E5E9004DBF01 /* TalWTNLoggerUtil.m in Sources */,
+				2B2DA2332855E2670052654A /* BaseButton.m in Sources */,
+				2B13888028562D4800E40A49 /* MenuItemButton.m in Sources */,
+				2B2DA2362855E2750052654A /* DeviceInforTool.m in Sources */,
+				2B2DA25E28560D540052654A /* HomeViewController.m in Sources */,
+				2B2DA1DD2855E1B00052654A /* ViewController.m in Sources */,
+				2B2DA23B2855E27D0052654A /* ToastView.m in Sources */,
+				2B2DA1D72855E1B00052654A /* AppDelegate.m in Sources */,
+				2B2DA26728560E030052654A /* ScenesItemButton.m in Sources */,
+				2B2DA27928561C270052654A /* UserLiveView.m in Sources */,
+				2B2DA1E82855E1B10052654A /* main.m in Sources */,
+				2B97D69628597C430043A8D2 /* PullStreamingFailView.m in Sources */,
+				2B2DA23C2855E27D0052654A /* ToastComponents.m in Sources */,
+				2B2DA26428560DDE0052654A /* SceneButtonModel.m in Sources */,
+				2B2DA27028561A0B0052654A /* PushStreamingViewController.m in Sources */,
+				2B2DA1DA2855E1B00052654A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DA1E92855E1B20052654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2DA1F22855E1B20052654A /* TalWTNDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DA1F32855E1B20052654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2DA1FE2855E1B20052654A /* TalWTNDemoUITestsLaunchTests.m in Sources */,
+				2B2DA1FC2855E1B20052654A /* TalWTNDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2DA1EF2855E1B20052654A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2DA1D12855E1B00052654A /* TalWTNDemo */;
+			targetProxy = 2B2DA1EE2855E1B20052654A /* PBXContainerItemProxy */;
+		};
+		2B2DA1F92855E1B20052654A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2DA1D12855E1B00052654A /* TalWTNDemo */;
+			targetProxy = 2B2DA1F82855E1B20052654A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2DA1DE2855E1B00052654A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2DA1DF2855E1B00052654A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2DA1E32855E1B10052654A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2DA1E42855E1B10052654A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2DA1FF2855E1B20052654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B2DA2002855E1B20052654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2DA2022855E1B20052654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DF963930248ABC74A9BFF9 /* Pods-TalWTNDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW2HB7BV3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TalWTNDemo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TalWTNDemo/TalWTNDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TALWTN=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalWTNDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TalWTN;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于音视频推流场景";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于音视频推流场景";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TalWTNDemo.ios-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B2DA2032855E1B20052654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84D5346D78ACD9350775676 /* Pods-TalWTNDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6HAL6UA2V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TalWTNDemo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TalWTNDemo/TalWTNDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TALWTN=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalWTNDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TalWTN;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于音视频推流场景";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于音视频推流场景";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.100tal.weClassroomStudentDis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.100tal.weClassroomStudentInHouse;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B2DA2052855E1B20052654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F110BB23813CFB7FE38BFE87 /* Pods-TalWTNDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW2HB7BV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vertc.veRTCDemo.yangwenhan.TalWTNDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalWTNDemo.app/TalWTNDemo";
+			};
+			name = Debug;
+		};
+		2B2DA2062855E1B20052654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF544A4BCAF271C04E80AD9 /* Pods-TalWTNDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW2HB7BV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vertc.veRTCDemo.yangwenhan.TalWTNDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalWTNDemo.app/TalWTNDemo";
+			};
+			name = Release;
+		};
+		2B2DA2082855E1B20052654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155E364D61DE68D8580301E7 /* Pods-TalWTNDemo-TalWTNDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW2HB7BV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vertc.veRTCDemo.yangwenhan.TalWTNDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalWTNDemo;
+			};
+			name = Debug;
+		};
+		2B2DA2092855E1B20052654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CF141B99C8AA29B0D2E20D /* Pods-TalWTNDemo-TalWTNDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MW2HB7BV3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vertc.veRTCDemo.yangwenhan.TalWTNDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalWTNDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2DA1CD2855E1B00052654A /* Build configuration list for PBXProject "TalWTNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2DA1FF2855E1B20052654A /* Debug */,
+				2B2DA2002855E1B20052654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2DA2012855E1B20052654A /* Build configuration list for PBXNativeTarget "TalWTNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2DA2022855E1B20052654A /* Debug */,
+				2B2DA2032855E1B20052654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2DA2042855E1B20052654A /* Build configuration list for PBXNativeTarget "TalWTNDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2DA2052855E1B20052654A /* Debug */,
+				2B2DA2062855E1B20052654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2DA2072855E1B20052654A /* Build configuration list for PBXNativeTarget "TalWTNDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2DA2082855E1B20052654A /* Debug */,
+				2B2DA2092855E1B20052654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2DA1CA2855E1B00052654A /* Project object */;
+}

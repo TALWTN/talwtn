@@ -1,0 +1,14 @@
+/build
+/gen
+/talwtn/.gradle/
+/talwtn/.idea/
+/talwtn/.cxx/
+/talwtn/gen/
+/talwtn/local.properties
+/talwtn/build
+/.externalNativeBuild
+/.gradle
+/.cxx
+/.idea
+/local.properties
+gradlew

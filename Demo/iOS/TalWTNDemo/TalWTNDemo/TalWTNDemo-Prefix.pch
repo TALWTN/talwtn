@@ -1,0 +1,60 @@
+//
+//  TalWTNDemo.pch
+//  TalWTNDemo
+//
+//  Created by TAL on 2022/6/12.
+//
+
+#ifndef TalWTNDemo_pch
+#define TalWTNDemo_pch
+
+
+
+/*
+ 推流地址
+*/
+#define PushStreamUrl  @"推流地址"
+
+/*
+ 拉流地址
+*/
+#define PullStreamUrl  @"推流地址"
+
+#ifdef TALWTN
+#define HOST @"https://openrtc.eaydu.com"
+#define APPID @"bc22d5"
+#define APPKEY @"00eec858271ea752"
+#else
+#define HOST @"https://wtn.volcvideo.com"
+#define APPID @"6355f7b62adebe01979a1fc3"
+#define APPKEY @"a7de58b725534c45aeae42eae4a78dde"
+#endif
+
+#import "Masonry.h"
+#import "DeviceInforTool.h"
+#import "ToastComponents.h"
+#import "BaseButton.h"
+#import "UIColor+String.h"
+
+#define SCREEN_WIDTH  ([UIScreen mainScreen].bounds.size.width)
+
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define WeakSelf __weak typeof(self) wself = self;
+
+#define StrongSelf __strong __typeof(self) sself = wself;
+
+#define  IsEmptyStr(string) (string == nil || string == NULL ||[string isKindOfClass:[NSNull class]]|| [string isEqualToString:@""] ||[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length]==0 ? YES : NO)
+
+#define  NOEmptyStr(string) (string == nil || string == NULL ||[string isKindOfClass:[NSNull class]] || [string isEqualToString: @""]  ||[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length]==0 ? NO : YES)
+
+#ifndef dispatch_queue_async_safe
+#define dispatch_queue_async_safe(queue, block)\
+    if (dispatch_queue_get_label(DISPATCH_CURRENT_QUEUE_LABEL) == dispatch_queue_get_label(queue)) {\
+        block();\
+    } else {\
+        dispatch_async(queue, block);\
+    }
+#endif
+
+#endif /* TalWTNDemo_pch */
